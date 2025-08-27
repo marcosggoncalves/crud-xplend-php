@@ -1,0 +1,11 @@
+NAME: Gestão de garagem
+URL: http://localhost:8000
+PAGES:
+  FILE_SEQUENCE:
+      - <PAGE>.php
+      - /header.tpl
+      - <PAGE>.tpl
+      - /footer.tpl
+      - scripts.tpl
+URL_MASK:
+    .post: <PAGE>.post.php
