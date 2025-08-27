@@ -7,4 +7,7 @@
 
     $categorias = $service->query("SELECT * FROM categorias order by nome_categoria desc");
 
-    $vagasDisponiveis = $service->query("SELECT * FROM vagas where id_vaga not in( SELECT id_vaga FROM veiculos)");
+    $vagasDisponiveis = $service->query("SELECT * FROM vagas WHERE id_vaga NOT IN (SELECT id_vaga FROM veiculos) OR id_vaga IN (SELECT id_vaga FROM veiculos WHERE id_veiculo = {$idVeiculo})");
+
+
+  
