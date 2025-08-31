@@ -46,8 +46,8 @@
     <table>
       <tr>
         <th>Veículo</th>
-        <th>Descrição</th>
         <th>Veiculo na vaga</th>
+        <th>Descrição</th>
         <th>Status atual</th>
         <th>Categoria</th>
         <th>Tipo</th>

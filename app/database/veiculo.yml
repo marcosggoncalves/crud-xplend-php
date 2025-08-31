@@ -1,6 +1,0 @@
-
-veiculo:
-    id: id           
-    descricao: ucwords/64   # varchar(64), auto text transform
-    foto: ucwords/64   # varchar(32), auto text transform
-    date_insert: date  # datetime
